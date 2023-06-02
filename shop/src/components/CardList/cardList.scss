@@ -1,0 +1,54 @@
+.card-list-card{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 10px;
+    .card-list__item{
+        width: 300px;
+        height: 270px;
+        background-color: azure;
+        margin: 5px;
+        border: none;
+        border-radius: 10px;
+    }
+}
+
+.card-list-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding: 0 40px;
+    .card-list__item{
+        width: 100%;
+        height: 210px;
+        background-color: azure;
+        margin: 5px;
+        border: none;
+        border-radius: 10px;
+        .card__wrapper{
+            display: grid;
+            grid-template-rows: 40px 160px;
+            grid-template-columns: 80% 20%;
+            grid-template-areas: "title del"
+                    "info btn";
+            .card-description__prod-name {
+                grid-area: title;
+            }
+            .del__icon{
+                grid-area: del;
+            }
+            .info-wrapper{
+                grid-area: info;
+            }
+            .card__btn-wrapper{
+                grid-area: btn;
+            }
+        }
+    }
+}

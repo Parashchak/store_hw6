@@ -1,0 +1,52 @@
+.order-form{
+    width: 200px;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .formgroup{
+        .input_field{
+            width: 175px;
+            text-align: center;
+            padding: 5px;
+            background-color: azure;
+            border: 2px solid #008000c7;
+            border-radius: 25px;
+            box-shadow: 2px 2px #000099a8;
+        }
+        .error_input{
+            border: 2px solid #ff0202c7;
+            box-shadow: 2px 2px #b5b201e4;
+        }
+        
+        .formgroup__label{
+            color: #4040db;
+            padding-bottom: 10px;
+            .error_text{
+                color:  rgb(255 0 0 / 78%);
+            }
+        }
+    }
+    .btn{
+        border: 2px solid #008000c7;
+        border-radius: 25px;
+        box-shadow: 2px 2px #000099a8;
+        padding: 15px;
+        width: 150px;
+        cursor: pointer;
+        color: #008000c7;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: azure;
+    }
+    .total_price{
+        color: rgb(56, 8, 189);
+        span{
+            color: rgb(11, 127, 11);
+            font-weight: 900;
+        }
+    }
+}

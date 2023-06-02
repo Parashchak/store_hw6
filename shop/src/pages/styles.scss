@@ -1,0 +1,16 @@
+.basket_wrapper {
+    display: grid;
+    grid-template-columns: 75% 20%;
+}
+.no_data {
+    text-align: center;
+    color: rgb(41, 33, 202);
+}
+
+.toggle-view{
+    border: 2px solid rgb(182, 226, 118);
+    border-radius: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}

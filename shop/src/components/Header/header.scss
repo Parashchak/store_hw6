@@ -1,0 +1,26 @@
+.header{
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    .header__fav-wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        .fav__length{
+            margin: 5px;
+        }
+    }
+    .header__basket-wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        .basket__length{
+            margin: 5px;
+        }
+    }
+}

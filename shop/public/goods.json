@@ -1,0 +1,82 @@
+[
+    {
+        "id": "0",
+        "name": "iphone 14",
+        "price": "900",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/IPhone_14_Pro_vector_%28blue%29.svg/800px-IPhone_14_Pro_vector_%28blue%29.svg.png",
+        "barcode": "012345",
+        "color": "Midnight"
+    },
+    {
+        "id": "1",
+        "name": "iphone 13",
+        "price": "700",
+        "picture": "https://estore.ua/media/post/image/i/p/iphone-13-dummy-thumbnail-2.jpeg",
+        "barcode": "054321",
+        "color": "White"
+    },
+    {
+        "id": "2",
+        "name": "iphone 12",
+        "price": "500",
+        "picture": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-finish-select-202207-blue?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1662149977576",
+        "barcode": "021345",
+        "color": "Blue"
+    },
+    {
+        "id": "3",
+        "name": "iphone 11 Pro Max",
+        "price": "450",
+        "picture": "https://www.apple.com/newsroom/images/product/iphone/lifestyle/Apple_iPhone-11-Pro_Most-Powerful-Advanced_091019_big.jpg.large.jpg",
+        "barcode": "031245",
+        "color": "Midnight Green"
+    },
+    {
+        "id": "4",
+        "name": "AirPods Pro 2",
+        "price": "270",
+        "picture": "https://jabko.ua/image/cache/catalog/products/2022/09/072342/MQD83%20(1)-1397x1397.jpg.webp",
+        "barcode": "041235",
+        "color": "White"
+    },
+    {
+        "id": "5",
+        "name": "AirPods 3",
+        "price": "230",
+        "picture": "https://media.wired.co.uk/photos/6183f7bca9fdfdefa03d6e10/3:2/pass/04112021_Air_02.jpg",
+        "barcode": "041236",
+        "color": "White"
+    },
+    {
+        "id": "6",
+        "name": "MacBook Air M2",
+        "price": "1200",
+        "picture": "https://s.yimg.com/uu/api/res/1.2/fgW_26Qq5iXhRHjjC8pzwA--~B/aD0xMjIyO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-07/8f645890-0318-11ed-abe7-4a5445793bdd.cf.jpg",
+        "barcode": "051234",
+        "color": "Silver"
+    },
+    {
+        "id": "7",
+        "name": "MacBook Pro M2",
+        "price": "2000",
+        "picture": "https://applecity.com.ua/image/cache/catalog/macbookpro2022/apple-macbook-pro-m2-silver-2022-1.1000x1000-1000x1000.jpg",
+        "barcode": "001177",
+        "color": "Silver"
+    },
+    {
+        "id": "8",
+        "name": "iPad Pro 12.9 2021",
+        "price": "1500",
+        "picture": "https://mcstore.com.ua/image/cache/catalog/ipad%20Pro%2012.9%20grey-1619699269-600x600.jpg",
+        "barcode": "770123",
+        "color": "Space Gray"
+    },
+    {
+        "id": "9",
+        "name": "Magic Mouse",
+        "price": "50",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Magic_Mouse_01_Pengo.jpg",
+        "barcode": "110775",
+        "color": "White"
+    }
+]
