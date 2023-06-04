@@ -11,7 +11,6 @@ import Button from "../src/components/Button";
 import ThemeContext from "../src/Context";
 
 function App() {
-  const dispatch = useDispatch();
   const products = useSelector((state) => state.products.products);
 
   const themeView = localStorage.getItem('viewContext');
@@ -21,6 +20,7 @@ function App() {
       setTheme(!theme);
   }
 
+  const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getProductsFetch("./goods.json"));
   }, [dispatch]);
@@ -34,27 +34,27 @@ function App() {
   }
   return (
     <>
-    <Header/>
-    <Button
-      onClick={handleToggleView}
-      text={theme ? <FontAwesomeIcon icon={faGrip}/> : <FontAwesomeIcon icon={faListUl} />}
-      btnClass="toggle-view"
-    />
     <ThemeContext.Provider value={{theme: theme, setTheme: setTheme}}>
-      <Routes>
-        <Route 
-          path='/' 
-          element={<Home ulClass={ulClass}/>}
-        />
-        <Route 
-          path='/fav' 
-          element={<Fav ulClass={ulClass}/>}
-        />
-        <Route 
-          path='/basket' 
-          element={<Basket ulClass={ulClass}/>}
-        />
-      </Routes>
+      <Header/>
+      <Button
+        onClick={handleToggleView}
+        text={theme ? <FontAwesomeIcon icon={faGrip}/> : <FontAwesomeIcon icon={faListUl} />}
+        btnClass="toggle-view"
+      />
+        <Routes>
+          <Route 
+            path='/' 
+            element={<Home ulClass={ulClass}/>}
+          />
+          <Route 
+            path='/fav' 
+            element={<Fav ulClass={ulClass}/>}
+          />
+          <Route 
+            path='/basket' 
+            element={<Basket ulClass={ulClass}/>}
+          />
+        </Routes>
     </ThemeContext.Provider>
     </>
   );
